@@ -176,6 +176,20 @@ img.flex-nav {
     line-height: .7;
 }
 
+@media (min-width: 35em){
+    .row {
+        display: flex;
+        margin-left: -.75em;
+        margin-right: -.75em;
+    }
+    .column {
+      flex: 1;
+      margin-right: 0.7em;
+      margin-left: 0.7em;
+    }
+}
+
+}
 
 /*
   Refine the design of your child elements here.
